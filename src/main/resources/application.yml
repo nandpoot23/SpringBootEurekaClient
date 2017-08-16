@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: eureka-client-app
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9799/eureka/
+  instance:
+    preferIpAddress: true
